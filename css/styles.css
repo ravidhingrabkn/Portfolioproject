@@ -1,0 +1,112 @@
+body {
+    background-color: #EDEFEE;
+    /* background-color: #000; */
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header > img {
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer img {
+    height: 100px;
+}
+nav {
+    background-color: black;
+    margin: 1em 0;
+    border-radius: 1.5rem;
+}
+nav ul {
+    list-style: none;
+    text-align: center;    
+}
+nav li {
+    display: inline-block;    
+}
+nav li a {    
+   text-decoration: none; 
+   font-size: 2rem;
+   margin: 0 1em;
+   color: #fff;
+   font-weight: bold;
+}
+nav li a:hover {
+    color: lightsalmon;
+    transition: 0.5s ease-in-out;
+}
+
+section{
+    display: flex;
+    gap: 1em;  
+}
+section p {
+    font-size: 1.5rem;
+}
+article {
+    flex: 1;
+}
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
+.section1{
+    background-image: url("/images/pennePasta.jpg");    
+    background-position: center;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-top: 2em;
+    color: #fff;
+}
+.section1 p {
+    width: 75%;
+}
+
+.section2 article {
+    background-color: lightsalmon;
+    justify-content: space-around;    
+    margin: 1em 0;    
+    padding: 1em; 
+    border-radius: 1.5rem;        
+}
+.section2 a {
+    font-size: 1.5rem;
+}
+
+.section2 a:hover {
+    color: #fff;
+}
+
+.section2 img{
+    height: 200px;
+    width: 100%;
+}
+footer div:nth-child(2) {
+    
+    text-align: right;   
+}
+div p {
+    border-top: 3px solid ;
+}
+.section2 table{
+    margin-left: 1.5em;
+    font-size: 1.5rem;    
+}
+
+@media screen and (max-width : 600px) {
+    header > img {
+        height: 80px;        
+    }
+}
